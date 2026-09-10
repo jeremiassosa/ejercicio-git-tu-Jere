@@ -20,3 +20,11 @@
 
        - "content-length: 292"
         + Indica el tamaño del contenido, en este caso 292 bytes
+
+## A.2 — GET con query params
+
+   # ¿Cuántos resultados devolvió?
+       - En este caso devolvio 5 objetos con resultados con postId 1.
+   # ¿Cómo armaste la URL para filtrar?
+       - "comments?postId=1"
+        + La URL se se arma con el '?' entre el 'comments' para poder filtrar los comentarios que tienen los postId con valor a 1.
