@@ -60,3 +60,10 @@
      En este caso me devolvio el estatus 200.
    # ¿Qué contenido tiene el body de la respuesta?
      El contenido del body esta vacio, se muestra el objeto sin nada.
+
+## A.6 — Recurso inexistente
+
+   # ¿Qué código de status devolvió?
+     El codigo que me devolvio es el 404
+   # ¿Cómo es el body de la respuesta en este caso?
+     El body de la respuesta esta vacio ("{}") ya que dentro de la API no existe el post con id 9999
