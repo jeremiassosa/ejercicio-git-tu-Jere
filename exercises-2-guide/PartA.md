@@ -52,4 +52,11 @@
             "id": 1,
             "title": "koala",
             "body": "el koala es un animal"
-          }%                   
+          }%
+
+## A.5 — DELETE
+
+   # ¿Qué código de status devolvió?
+     En este caso me devolvio el estatus 200.
+   # ¿Qué contenido tiene el body de la respuesta?
+     El contenido del body esta vacio, se muestra el objeto sin nada.
