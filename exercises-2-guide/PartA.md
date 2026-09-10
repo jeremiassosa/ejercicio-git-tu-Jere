@@ -28,3 +28,10 @@
    # ¿Cómo armaste la URL para filtrar?
        - "comments?postId=1"
         + La URL se se arma con el '?' entre el 'comments' para poder filtrar los comentarios que tienen los postId con valor a 1.
+
+### A.3 — POST
+
+   # ¿Qué código de status devolvió?
+     - Me devolvio 201 Create
+   # ¿Qué id le asignó el servidor al nuevo recurso? ¿Por qué creés que pasa eso, sabiendo que la API no persiste datos? 
+     - La ID que se le asigno al objeto que mande es la id 101. Crearia que API no almacena estas 
