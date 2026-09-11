@@ -8,7 +8,7 @@
         -H "X_Alumno: Jeremias Sosa"
 
         Respuesta :
-        
+
         {
         "headers": {
             "Accept": "*/*", 
@@ -21,3 +21,14 @@
 
 ## Extra: agregá un header personalizado tuyo (por ejemplo X-Alumno: tu-nombre) y confirmá que aparece en la respuesta.
 
+
+
+# Reto 2 — Mandar Body y Content-Type, y verificar que llego bien
+### Objetivo: Enviar una petición POST con un body en formato JSON (inventá los campos que quieras) al endpoint /post, y comprobar en la respuesta que el servidor recibió tanto tu body como el header que indica el tipo de contenido.
+
+## Preguntas para responder con lo que veas en la respuesta:
+
+## ¿En qué parte del JSON de respuesta aparece el body que mandaste?
+    El JSON que mande aparece en el body llamado como "data".
+## Qué pasa si mandás el body sin indicar el tipo de contenido? Probalo y compará.
+    Si mandas sin especificar que es un JSON lo guarda en el apartado de "form".
