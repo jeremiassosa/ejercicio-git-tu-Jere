@@ -12,4 +12,17 @@
         + El localhost es el nombre de dominio que se le implementa por defecto a la misma computadora donde se corrio el servidor localmente,la dirección IP numérica estándar es 127.0.0.1.
     - ¿Qué hace curl y por qué es útil para probar un servidor sin usar el navegador?
         + Es un programa para la terminal que ejecuta al igual que los de navegador, pero sin algun tipo de apartado visual y es util porque te muestra la respuesta directa y cruda del servidor al instante
+
+## Ejercicio 7: Servidor con Rutas (07-rutas.js)
+
+    - curl http://localhost:3000/
+      + Inicio
+        Indica 200 OK
+
+    - curl http://localhost:3000/alumnos
+      + Barua, Tobi y Gio
+        Indica 200 OK
         
+    - curl http://localhost:3000/otra-ruta
+      + No encontrado
+        Indica error 404 Not Found
