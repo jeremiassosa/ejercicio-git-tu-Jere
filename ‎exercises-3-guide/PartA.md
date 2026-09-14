@@ -44,3 +44,16 @@
 ## ¿Cómo te das cuenta del código de status sin ver ningún body en la respuesta? ¿Qué flag o técnica usaste?
     Para saber el status del codigo use -I como flag  asi me da la informacion al llamar a la API, y la misma te devuelve HTTP/2 404 o 500 dependiendo de el error que se produzca
 
+
+# Reto 4 — Seguir una redirección
+### Objetivo: El endpoint /redirect/3 te redirige 3 veces antes de llegar a la respuesta final. Primero, hacé la petición sin seguir la redirección y anotá qué código y qué header devuelve. Después, conseguí llegar hasta la respuesta final en un solo comando.
+
+ + curl -v https://httpbin.org/redirect/3
+
+### Preguntas para responder:
+## ¿Qué código de status viste en el primer intento?
+    - El primer status que se vio fue el 302 redirección
+## ¿Qué header te decía a dónde te tenías que redirigir?
+    - El header de location indicaba cual era la direccion a cual te tenias que redirigir
+## ¿Cuántas líneas de "salto" ves si le pedís a curl que te muestre el detalle completo de la comunicación mientras sigue las redirecciones?
+    - Se salta 8 lineas y dos por cada comunicacion
